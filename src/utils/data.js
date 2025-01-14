@@ -1,31 +1,31 @@
 export const HeroData = [
   {
-    src: "hero/person1.jpg",
+    src: "hero/person1.png",
     bg: "#0be4d1",
     delay: 0.1,
   },
   {
-    src: "hero/person2.jpg",
+    src: "hero/person2.png",
     bg: "#fde490",
     delay: 0.3,
   },
   {
-    src: "hero/person3.jpg",
+    src: "hero/person3.png",
     bg: "#00c9f7",
     delay: 0.2,
   },
   {
-    src: "hero/person4.jpg",
+    src: "hero/person4.png",
     bg: "#83cfdf",
     delay: 0.2,
   },
   {
-    src: "hero/person5.jpg",
+    src: "hero/person5.png",
     bg: "#fe8856",
     delay: 0.3,
   },
   {
-    src: "hero/person6.jpg",
+    src: "hero/person6.png",
     bg: "#0be4d1",
     delay: 0.25,
   },
@@ -34,108 +34,169 @@ export const HeroData = [
 export const features = [
   {
     icon: "/features/Frame-0.png",
-    title: "3x monthly revenue",
+    title: "Full-House Service",
   },
   {
     icon: "/features/Frame-1.png",
-    title: "Flat fee of 6-12%",
+    title: "Flexible Scheduling",
   },
   {
     icon: "/features/Frame-2.png",
-    title: "Flexible repayments by revenue share",
+    title: "Flat rate, no prepayment",
   },
   {
     icon: "/features/Frame-3.png",
-    title: "3-4 years repayment",
+    title: "Detailed, High Quality Cleaning",
   },
   {
     icon: "/features/Frame-4.png",
-    title: "$10-100k seed investment",
+    title: "Solutions Tailored to You",
   },
   {
     icon: "/features/Frame-5.png",
-    title: "2% of revenue up to 3X cap",
+    title: "Pet-Safe, Eco-Friendly Products",
   },
 ];
 
 export const ourDiffFeatures = [
   {
     icon: "/OurDiff/Frame-0.png",
-    title: "Data Driven",
-    des: "Our mission is to level the playing field for early stage growth capital. We provide capital that is unbiased, flexible and non dilutive with the execution support to accelerate value creation",
+    title: "Attention to Detail",
+    des: "Meticulous cleaning down to the last corner—because your home deserves the best.",
   },
   {
     icon: "/OurDiff/Frame-1.png",
-    title: "flexible funding",
-    des: "Funding that flexes as revenue grows with transparent costs and does not require dilution, personal guarantees or pitch decks",
+    title: "Transparent Pricing & Customization",
+    des: "No hidden fees, no surprises. We offer flat rates and customizable services to fit your needs.",
   },
   {
     icon: "/OurDiff/Frame-2.png",
-    title: "value accelerating",
-    des: "On demand expertise to supercharge growth in areas that are hard to access for early stage founders",
+    title: "Eco-Friendly & Pet-Safe Products",
+    des: "We use only the best eco-friendly products that are safe for your pets and family.",
   },
 ];
 
 export const hitFeatures = [
   {
     icon: "/howItWorks/Frame-0.png",
-    title: "Connect",
-    des: "Register and qualify for funding in less than 5 mins. Connect revenue and marketing platforms you already use.",
+    title: "Request A Quote",
+    des: 'Fill in your email in the box at the top of this page or bottom of this section, and click the "Get Quote" button. Then expect a phone call within 24 - 48 hours.',
   },
   {
     icon: "/howItWorks/Frame-1.png",
-    title: "Get Funded",
-    des: "Get a term sheet with upto 3 funding offers. Select option that best suits and complete onboarding to receive funds in days",
+    title: "Scheduling Services",
+    des: 'Work out the details of what services you want. Set a date, time, and location and discuss any special requests or instructions to get the job done exactly how you want.',
   },
   {
     icon: "/howItWorks/Frame-2.png",
-    title: "Support Growth",
-    des: "Access curated feed of actionable insights and on demand execution expertise. Auto qualify for follow on funding as you grow",
+    title: "Cleaning Day",
+    des: 'Our team will arrive at your home on the scheduled day and time. They will bring all the necessary supplies and equipment to get the job done right.',
   },
 ];
 
-export const whoWeInvest = [
+export const serviceArea = [
   {
-    title: "Digital Business Model",
-    des: "Digital business model e.g. SaaS, subscription, D2C, apps",
+    title: "Greater Sacramento Area:",
+    des: "we are proud to serve the homes and families of Sacramento and the surrounding areas. Whether you're located in the heart of the city, the nearby suburbs, or a charming rural neighborhood, we're here to bring top-tier cleaning services to your doorstep.",
   },
   {
-    title: "Revenue Generating",
-    des: "Revenue generating for 6 months, > $1k in monthly recurring revenue",
+    title: "Service Area Include:",
+    des: "Lincoln/Roseville all the way to Elk Grove and Folsom to Davis and everywhere in between.",
   },
   {
-    title: "Support Growth",
-    des: "Industry expertise: Fintech, Health, Deep tech, B2B software",
+    title: "Outside of our Service Area?",
+    des: "No worries, gives us a call or send your email for a quote and let us know where your at and we may be able to work out something. May have extra fees to cover travel cost.",
   },
   {
-    title: "International Expansion",
-    des: "Registered in Australia and Singapore (initially) with appetite for international expansion",
+    title: "Questions?",
+    des: "Just reach out and let us know what you're situation is and we can let you know if we can work something out for you.",
   },
 ];
 
 export const testimonialsData = [
-  {
-    comment:
-      "SUPER HAPPY! Not only do you get to see the best seed and Early Stage companies but the exciting part is there’s a bunch of investors",
-    name: "Zach Lee",
-    profession: "QA specialist, Matrix architect",
+  { 
+    name: "Corey Hilsenbeck",
+    comment: "Had Judy clean my apartment after a dirty roommate moved out. \
+      Cleaned the entire apartment while I was at work, and she did a phenomenal job. \
+      It was like a brand new apartment. I would highly recommend her services",
+    relation: "A real customers unpaid testimony",
   },
   {
-    comment:
-      "I have been working with ZAINKEEPSCODE on our fundraising strategies. They understands the in depth strategies of Venture Capital and early stage fund raising/company",
-    name: "Cheryl R. Weiss",
-    profession: "Founder, Dubrow Cafeteria",
+    name: "[Insert Name]",
+    comment: "[Insert Comment]",
+    relation: "[Insert Relation]",
   },
   {
-    comment:
-      "Another masterpiece really digging into the art of venture funds, portfolio construction and deal mechanics! Loved it - I can say without hesitation that it is incredibly valuable for anyone who is investing",
-    name: "Vicky R. Lane",
-    profession: "Directork, Lafayette Radio",
+    name: "[Insert Name]", 
+    comment: "[Insert Comment]",
+    relation: "[Insert Relation]",
   },
   {
-    comment:
-      "BlueVenture is the premier setting for entrepreneurs and investors alike to exchange ideas, and network. As an entrepreneur, I can rely on the BlueVenture to bring top caliber speakers, entrepreneurs and investors",
-    name: "Jennifer Dubois",
-    profession: "Manager, China Coast",
+    name: "[Insert Name]", 
+    comment: "[Insert Comment]",
+    relation: "[Insert Relation]",
   },
 ];
+
+export const attributions = [
+  {
+    name: 'Cleaning Icon',
+    link: '<a href="https://www.flaticon.com/free-icons/cleaning"></a>',
+    text: 'Cleaning icons created by monkik - Flaticon'
+  },
+  {
+    name: 'Calendar Icon',
+    link: '<a href="https://www.flaticon.com/free-icons/calendar"></a>',
+    text: 'Calendar icons created by Freepik - Flaticon'
+  },
+  {
+    name: 'Prepayment Icon',
+    link: '<a href="https://www.flaticon.com/free-icons/prepayment"></a>',
+    text: 'Prepayment icons created by Vitaly Gorbachev - Flaticon'
+  },
+  {
+    name: 'Cleaning Icon 2',
+    link: '<a href="https://www.flaticon.com/free-icons/cleaning"></a>',
+    text: 'Cleaning icons created by Flat Icons - Flaticon'
+  },
+  {
+    name: 'Collaboration Icon',
+    link: '<a href="https://www.flaticon.com/free-icons/collaboration"></a>',
+    text: 'Collaboration icons created by small.smiles - Flaticon'
+  },
+  {
+    name: 'Quality Icon',
+    link: '<a href="https://www.flaticon.com/free-icons/quality"></a>',
+    text: 'Quality icons created by Freepik - Flaticon'
+  },
+  {
+    name: 'Attention to Detail Icon',
+    link: '<a href="https://www.flaticon.com/free-icons/attention-to-detail"></a>',
+    text: 'Attention to detail icons created by Slamlabs - Flaticon'
+  },
+  {
+    name: 'Transparency Icon',
+    link: '<a href="https://www.flaticon.com/free-icons/transparency"></a>',
+    text: 'Transparency icons created by Dewi Sari - Flaticon'
+  },
+  {
+    name: 'Insurance Icon',
+    link: '<a href="https://www.flaticon.com/free-icons/insurance"></a>',
+    text: 'Insurance icons created by Freepik - Flaticon'
+  },
+  {
+    name: 'Quote Request Icon',
+    link: '<a href="https://www.flaticon.com/free-icons/quote-request"></a>',
+    text: 'Quote request icons created by Freepik - Flaticon'
+  },
+  {
+    name: 'Schedule Icon',
+    link: '<a href="https://www.flaticon.com/free-icons/schedule"></a>',
+    text: 'Schedule icons created by Freepik - Flaticon'
+  },
+  {
+    name: 'Cleaning Service Icon',
+    link: '<a href="https://www.flaticon.com/free-icons/cleaning-service"></a>',
+    text: 'Cleaning service icons created by kerismaker - Flaticon'
+  },
+]
