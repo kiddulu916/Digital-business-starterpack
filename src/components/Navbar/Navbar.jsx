@@ -5,7 +5,7 @@ import "./Navbar.css"
 import { BiMenuAltRight } from "react-icons/bi"
 import { RxCross2 } from "react-icons/rx"
 import { motion, useMotionValueEvent, useScroll } from "framer-motion"
-
+import { Link } from "react-scroll";
 const Navbar = () => {
     const [mobileMenuOpened, setMobileMenuOpened] = useState(false);
     const [navStyle, setNavStyle] = useState("");
@@ -32,14 +32,24 @@ const Navbar = () => {
                     {/* right side */}
                     <div className="n-right">
                         <div className="n-menu">
-                            <span>What We Do</span>
-                            <span>How It Works</span>
-                            <span>Service Area</span>
-                            <span>Testimonials(*optional*)</span>
+                            <Link to="h-wrapper" spy={true} smooth={true}>
+                              <span>Home</span>
+                            </Link>
+                            <Link to="wwd-wrapper" spy={true} smooth={true}>
+                              <span>What We Do</span>
+                            </Link>
+                            <Link to="hiw-wrapper" spy={true} smooth={true}>
+                              <span>How It Works</span>
+                            </Link>
+                            <Link to="sa-wrapper" spy={true} smooth={true}>
+                              <span>Service Area</span>
+                            </Link> 
                         </div>
                         <div className="buttons">
-                            <button>Get Quote</button>
-                            <button>Contact Us</button>
+                            <Link to="contact-wrapper" spy={true} smooth={true}>
+                              <button>Contact Us</button>
+                            </Link>
+
                         </div>
                     </div>
                 </div>
@@ -68,13 +78,22 @@ const Navbar = () => {
                     className="nm-menu"
                     style={{transform: mobileMenuOpened && "translateX(0)"}}
                 >
-                    <span>About Us</span>
-                    <span>What We Do</span>
-                    <span>Service Area</span>
-                    <span>Testimonials(*optional*)</span>
+                    <Link to="h-wrapper" spy={true} smooth={true} onClick={() => setMobileMenuOpened(false)}>
+                      <span>Home</span>
+                    </Link>
+                    <Link to="wwd-wrapper" spy={true} smooth={true} onClick={() => setMobileMenuOpened(false)}>
+                      <span>What We Do</span>
+                    </Link>
+                    <Link to="hiw-wrapper" spy={true} smooth={true} onClick={() => setMobileMenuOpened(false)}>
+                      <span>How It Works</span>
+                    </Link>
+                    <Link to="sa-wrapper" spy={true} smooth={true} onClick={() => setMobileMenuOpened(false)}>
+                      <span>Service Area</span>
+                    </Link>
                     <div className="m-buttons">
-                        <button>Get Quote</button>
-                        <button>Contact Us</button>
+                        <Link to="contact-wrapper" spy={true} smooth={true} onClick={() => setMobileMenuOpened(false)}>
+                          <button>Contact Us</button>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -10,11 +10,12 @@ import ServiceArea from "@/src/components/ServiceArea/ServiceArea";
 import { motion, useAnimation } from 'framer-motion';
 import Testimonials from "@/src/components/Testimonials/Testimonials";
 import Footer from "@/src/components/Footer/Footer";
+import Contact from "@/src/components/Contact/Contact";
 import "./page.css";
 
 export default function Home() {
   const controls = useAnimation();
-
+  
   return (
     <motion.div className="app" animate={controls}>
       <Navbar />
@@ -56,7 +57,7 @@ export default function Home() {
         <ServiceArea />
       </motion.div>
       
-      <Testimonials />
+      <Contact />
       <Footer />
     </motion.div>
   );

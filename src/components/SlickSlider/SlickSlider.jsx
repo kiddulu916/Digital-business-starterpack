@@ -39,7 +39,7 @@ const SlickSlider = () => {
     ],
   };
   return (
-    <div>
+    <div className="s-container">
       <Slider {...settings}>
         {testimonialsData.map((comment, i) => (
           <div className="comment" key={i}>

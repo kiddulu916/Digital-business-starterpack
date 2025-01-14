@@ -17,7 +17,13 @@
   max-width: 50rem;
 }
 
+.s-container {
+  align-items: center;
+  justify-content: center;
+}
+
 .slick-slider {
+  justify-content: center;
   margin-top: 5rem;
 }
 
